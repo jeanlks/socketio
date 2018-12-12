@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node":"8.3.0"
+    "node": "8.3.0"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/jeanlks/socketio#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "nodemon": "^1.18.8"
+    "nodemon": "^1.18.8",
+    "socket.io": "^2.2.0"
   }
 }

@@ -10,5 +10,15 @@
 </head>
 <body>
     <p>Socket io App</p>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+         var socket = io();
+         socket.on('connect', ()=> {
+             console.log('Server connected');
+         });
+         socket.on('disconnect', ()=> {
+            console.log('Server disconnected');
+         });
+    </script>
 </body>
 </html>
