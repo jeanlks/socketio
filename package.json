@@ -1,0 +1,22 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanlks/socketio.git"
+  },
+  "author": "JEAN LUCAS MONTE CARVALHO <jean.carvalho@pcinformatica.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanlks/socketio/issues"
+  },
+  "homepage": "https://github.com/jeanlks/socketio#readme",
+  "dependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
