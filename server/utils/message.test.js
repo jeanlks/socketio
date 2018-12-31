@@ -10,9 +10,6 @@ describe('generateMessage', () => {
         expect(message.text).toBe(from);
         expect(message.from).toBe(text);
     });
-});
-
-describe('generateLocationMessage', () => {
     it('should generate location object', () => {
         var from  = 'location';
         var latitude = '-14.6962419';
