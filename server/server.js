@@ -20,6 +20,10 @@ io.on('connection', (socket) => {
         if (!isRealString(params.name) || !isRealString(params.room)){
             callback('Name and room name are required!')
         }
+
+        socket.join(params.room);
+
+        socket.broadcast.to(params.room).emit('newMessage', generateMessage('Admin', `${params.name} has joined`));
     });
 
     socket.on('createMessage', function(message, callback) {
