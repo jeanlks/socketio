@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/jeanlks/socketio.git"
   },
-  "author": "JEAN LUCAS MONTE CARVALHO <jean.carvalho@pcinformatica.com.br>",
+  "author": "JEAN LUCAS MONTE CARVALHO",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jeanlks/socketio/issues"
